@@ -3,6 +3,8 @@ id: spring-boot
 title: REST API and Kafka Message Publishing
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Time: 40 minutes
 ## What you'll learn
 
@@ -14,7 +16,7 @@ How to setup your application for :
 
 In this tutorial, we will create a simple java component with java spring-boot scaffolder. We want to expose a single REST endpoint for getting client data. Client data is provided by another REST component client-data-db, so we need to configure a spring rest call for it. Any access to client data should be logged in the Kafka topic, so we need Kafka client configuration as well.
 
-![Client data service image](/docs/spring/javaSpring/img/ClientDataService.png)
+<img alt="ClientDataServiceImage" src={useBaseUrl('img/spring/springBoot/ClientDataService.png')}/>
 
 ## Project source
 
@@ -162,7 +164,7 @@ Open your IDE, import created component and start coding:
 
 - Try to build and run the application in your IDE. After startup, you should be able to access your new controller’s swagger: **http://localhost:8080/swagger/index.html**
 
-![ClientDataServiceImageSwagger](/docs/spring/javaSpring/img/ClientDataService_swagger.png)
+<img alt="ClientDataServiceImageSwagger" src={useBaseUrl('img/spring/springBoot/clientDataService_swagger.png')}/>
 
 ## What’s next?
 

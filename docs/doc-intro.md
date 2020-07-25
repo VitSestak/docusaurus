@@ -1,6 +1,8 @@
 ---
 id: doc_intro
 title: Docs intro
+hide_title: true
+hide_table_of_contents: true
 ---
 
 ## Here you find whole documentation

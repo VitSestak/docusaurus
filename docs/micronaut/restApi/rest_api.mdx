@@ -3,6 +3,8 @@ id: restapi
 title: Java Micronaut REST API
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Time: 45 minutes
 
 ## What you’ll learn
@@ -14,7 +16,7 @@ How to setup your application for :
 
 In this tutorial, we will create a simple Java component with the Java Micronaut scaffolder. We want to expose the single REST endpoint for getting user details for his username only. This will require simple sequential orchestration of two REST services, one to get user authorization privileges and second for basic user details. 
 
-![clientInfoService](/docs/micronaut/restApi/img/ClientInfoService.png)
+<img alt="clientInfoService" src={useBaseUrl('img/micronaut/restApi/ClientInfoService.png')} />
 
 ## Project source
 
@@ -141,7 +143,7 @@ Open your IDE, import the created component and start coding:
   - For the correct setup, check the Readme.md in the project root or see the tutorial [Java Micronaut Local Development](https://www.codenow.com/docs/local-development-with-codenow/java-micronaut-local-development/), section *Prepare local development IDE*
   - The component exposes a simple GET endpoint and can be tested using a browser call only. You should not forget to document your API and use the swagger-ui accordingly.
 
-![clientInfoServiceSwagger](/docs/micronaut/restApi/img/clientInformationService_swagger.png)
+<img alt="clientInfoServiceSwagger" src={useBaseUrl('img/micronaut/restApi/clientInformationService_swagger.png')} />
 
 ## What’s next?
 

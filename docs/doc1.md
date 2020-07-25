@@ -1,7 +1,17 @@
 ---
 id: doc1
 title: Style Guide
-sidebar_label: Style Guide
+hide_title: true
+hide_table_of_contents: true
+sidebar_label: Markdown :)
+custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+description: How do I find you when I cannot solve this problem
+keywords:
+  - docs
+  - docusaurus
+image: https://i.imgur.com/mErPwqL.png
+---
+
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

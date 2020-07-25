@@ -3,6 +3,8 @@ id: redis
 title: Java Micronaut REST Server with Redis and Kafka
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Time: 40 minutes
 
 ## What you will learn
@@ -17,7 +19,7 @@ How to setup your application for :
 In this tutorial, we will create a simple java component with the Java Micronaut scaffolder. We want to expose a single REST endpoint for getting user authorization roles. As roles are stored in Redis key-value store, we need a client configuration for our component. Any access to information about user roles should be logged in a Kafka topic, so we need a Kafka client configuration too.
 
 
-![clientAuthorizationService](/docs/micronaut/redis/img/ClientAuthorizationService.png)
+<img alt="clientAuthorizationService" src={useBaseUrl('img/micronaut/redis/ClientAuthorizationService.png')}/>
 
 
 ## Project source
@@ -169,7 +171,7 @@ Open your IDE, import created component and start coding:
 - Try to build and run application in your IDE. After startup, you should be able to access your new controller’s swagger: **[http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)**
 - For correct setup, check Readme.md in project root or see tutorial [Java Micronaut Local Development](https://www.codenow.com/docs/local-development-with-codenow/java-micronaut-local-development/), section *Prepare local development IDE*  
 
-![ClientAuthorizationServiceSwagger](/docs/micronaut/redis/img/ClientAuthorizationService_swagger.png)
+<img alt="ClientAuthorizationServiceSwagger" src={useBaseUrl('img/micronaut/redis/clientAuthorizationService_swagger.png')}/>
 
 ## What’s next?
 
